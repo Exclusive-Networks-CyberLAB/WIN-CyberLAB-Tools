@@ -1,0 +1,14 @@
+{
+  "display_name": "CyberLAB WIN Tools Quickstart",
+  "description": "Runs the local CyberLAB-quickstart.ps1 from the cloned repo.",
+  "interactive": true,
+  "entry": [
+    "pwsh",
+    "-NoLogo",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "CyberLAB-quickstart.ps1"
+  ]
+}
