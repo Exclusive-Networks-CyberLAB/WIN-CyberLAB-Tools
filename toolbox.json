@@ -3,7 +3,7 @@
   "description": "Runs the local CyberLAB-quickstart.ps1 from the cloned repo.",
   "interactive": true,
   "entry": [
-    "pwsh",
+    "powershell",
     "-NoLogo",
     "-NoProfile",
     "-ExecutionPolicy",
