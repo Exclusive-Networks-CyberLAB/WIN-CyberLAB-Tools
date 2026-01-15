@@ -8,7 +8,6 @@
     "-NoProfile",
     "-ExecutionPolicy",
     "Bypass",
-    "-File",
-    "CyberLAB-quickstart.ps1"
+    "chcp 65001 | Out-Null; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; $OutputEncoding=[System.Text.Encoding]::UTF8; .\\CyberLAB-quickstart.ps1"
   ]
 }
